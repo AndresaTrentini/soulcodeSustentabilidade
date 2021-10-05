@@ -164,6 +164,9 @@ footer {
     color: rgb(1, 8, 1);
 }
 
+
+/* Soluçoes  */
+
 #foto-lixao {
     margin-top: 30px;
     margin-left: 20px;
@@ -206,12 +209,6 @@ footer {
     color: #2d470b;
     margin-top: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-fieldset {
-    border: 3px double rgb(68, 83, 58);
-    padding: 10px;
-    /* background-color: rgb(190, 245, 223); */
 }
 
 .form {
@@ -300,20 +297,6 @@ legend {
     word-spacing: 5px;
 }
 
-.botao {
-    /* font-weight: bold;
-    width: 150px;
-    height: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-    background-color: gray;
-    line-height: 20px;
-  
-  
-    */
-}
-
 .myButton {
     box-shadow: 3px 4px 0px 0px #899599;
     background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
@@ -339,4 +322,22 @@ legend {
 .myButton:active {
     position: relative;
     top: 1px;
+}
+
+
+/* contato */
+
+#background-garrafas {
+    background-image: url("img/garrafas.png");
+    width: 100%;
+    height: auto;
+}
+
+fieldset {
+    width: 30%;
+    height: 50%;
+    border: 3px double rgb(68, 83, 58);
+    padding: 10px;
+    /* background-color: rgb(190, 245, 223); */
+    align-items: center;
 }
