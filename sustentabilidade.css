@@ -1,0 +1,342 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#menu_esquerdo ul {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_esquerdo {
+    margin-left: 10px;
+}
+
+#menu_direito {
+    margin-right: 10px;
+}
+
+#menu_esquerdo ul li a {
+    padding-right: 14px;
+    text-decoration: none;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* inserindo border-right como separador */
+
+#menu_esquerdo ul li {
+    list-style: none;
+    border-right: 1px solid black;
+    margin-right: 5px;
+}
+
+
+/* tirar a ultima borda  */
+
+#menu_esquerdo ul li:last-child {
+    border-right: none;
+}
+
+#menu_direito ul {
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu_direito ul li a {
+    padding-right: 14px;
+    text-decoration: none;
+}
+
+#menu_direito ul li {
+    list-style: none;
+    margin-right: 5px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.logo h1 {
+    width: 100%;
+    background-color: #449f73;
+    height: 80px;
+    left: 60px;
+    top: 75px;
+    color: white;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding-left: 30px;
+}
+
+section {
+    display: flex;
+}
+
+
+/* camadas sobrepostas */
+
+#container {
+    width: 679px;
+    height: 300px;
+    background-color: #415d1c;
+    position: absolute;
+    z-index: 2;
+    bottom: 48px;
+    display: flex;
+}
+
+#container img {
+    width: 50%;
+    height: auto;
+    margin-top: 45%;
+    margin-left: 20%;
+}
+
+#container2 img {
+    width: 780px;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 600px;
+    bottom: -52px;
+}
+
+#titulo {
+    font-size: 60px;
+    color: white;
+    margin-top: 20%;
+}
+
+.text {
+    margin-top: 32%;
+    margin-left: 3%;
+    line-height: 25px;
+}
+
+p,
+li {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text_direita {
+    display: flex;
+}
+
+#frase {
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #415D1C;
+}
+
+footer {
+    background-color: #449F73;
+    height: 45px;
+    width: 102%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(1, 8, 1);
+}
+
+#foto-lixao {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.solucao {
+    display: flex;
+}
+
+#solucoes {
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+
+/* vamos reciclar */
+
+.vamos-reclicar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#map {
+    margin-top: 3%;
+    border: 1px solid #449f73;
+}
+
+#vamos-reciclar {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2d470b;
+    margin-top: 40px;
+}
+
+#formulario h2 {
+    font-size: 38px;
+    color: #2d470b;
+    margin-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+fieldset {
+    border: 3px double rgb(68, 83, 58);
+    padding: 10px;
+    /* background-color: rgb(190, 245, 223); */
+}
+
+.form {
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+/* input,
+select,
+textarea {
+     background-color: rgb(189, 228, 189); 
+    color: rgb(4, 32, 23);
+    border: 2px solid #fff;
+} */
+
+fieldset p {
+    font-size: 20px;
+}
+
+
+/* input type {
+    font-size: 90px;
+} */
+
+
+/* div para formulário */
+
+.divFormulario {
+    width: 530px;
+    height: 25px;
+    /* border: 1px solid black; */
+    margin-bottom: 15px;
+    padding: 2px;
+}
+
+
+/* titulo do formulario */
+
+.textoTituloFormulario {
+    font-size: 16px;
+    color: black;
+}
+
+
+/* estlização do fieldset */
+
+.divFieldset {
+    width: 550px;
+    height: 300px;
+}
+
+.textoFormulario {
+    font-size: 16px;
+    color: #000;
+}
+
+.divEstado {
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+.divLabel {
+    width: 100px;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+
+.alinhamento {
+    display: flex;
+}
+
+.divCidade {
+    width: 150px;
+    height: 30px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.espacamento {
+    word-spacing: 5px;
+}
+
+.botao {
+    /* font-weight: bold;
+    width: 150px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: gray;
+    line-height: 20px;
+  
+  
+    */
+}
+
+.myButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+    margin-top: 20px;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
