@@ -36,64 +36,62 @@
     <section>
         <div id="background-garrafas">
 
-            <div>
-                <h2>Dados</h2>
-                <form>
-                    <fieldset>
-                        <label for="nome">Nome:</label>
-                        <input type="text" id="nome" placeholder="digite o seu nome">
-                        <p>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="digite seu email">
-                        </p>
-                        <label for="senha">
+
+            <form id="contato2">
+                <h2 class="h2tituloformulario">Dados</h2>
+                <fieldset>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="digite o seu nome">
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="digite seu email">
+                    </p>
+                    <label for="senha">
                             Senha
                         </label>
-                        <input type="password" id="senha">
-                        <!--caixa para selecionar a data de nascimento-->
-                        <p>
-                            <label for="telefone">Telefone </label>
-                            <input type="number" placeholder="(11)111111111">
-                        </p>
-                        <p>
-                            <label for="datadeNascimento">Data de nascimento:</label>
-                            <input type="date" id="dataNascimento" name="dataNascimento">
-                        </p>
-                        <p>
-                            <label for="reciclagem">Você separa o lixo para coleta seletiva ?</label><br>
-                            <input type="radio" name="reciclagem" value="sim">Sim<br>
-                            <input type="radio" name="reciclagem" value="nao">Não<br>
-                            <input type="radio" name="reciclagem" value="asvezes">Às vezes<br>
-
-                        </p>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Fale conosco</legend>
-                        <label for="mensagem" Mensagem>Mensagem</label>
-                        <textarea id="mensagem" placeholder="Deixe sua mensagem"></textarea>
-                    </fieldset>
+                    <input type="password" id="senha">
+                    <!--caixa para selecionar a data de nascimento-->
+                    <p>
+                        <label for="telefone">Telefone </label>
+                        <input type="number" placeholder="(11)111111111">
                     </p>
                     <p>
-                        <button type="reset">Limpar</button>
-                        <button type="submit">Enviar</button>
-                        <a href="sustentabilidade_index.html"><button type="button"> Voltar</button></a>
+                        <label for="datadeNascimento">Data de nascimento:</label>
+                        <input type="date" id="dataNascimento" name="dataNascimento">
                     </p>
-            </div>
+
+                    </p>
+                    <p>
+                        <label for="reciclagem">Você separa o lixo para coleta seletiva ?</label><br>
+                        <input type="radio" name="reciclagem" value="sim">Sim<br>
+                        <input type="radio" name="reciclagem" value="nao">Não<br>
+                        <input type="radio" name="reciclagem" value="asvezes">Às vezes<br>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Fale conosco</legend>
+                    <label for="mensagem" Mensagem>Mensagem</label>
+                    <textarea id="mensagem" placeholder="Deixe sua mensagem"></textarea>
+                </fieldset>
+
+                <input class="myButton myButton:hover myButton:active" type="submit" value="enviar" id="bt_enviar">
+                <input class="myButton myButton:hover myButton:active" type="reset" value="Limpar" id="bt_limpar">
+
+
+                </p>
+            </form>
+
         </div>
     </section>
-
-
-
     <footer>
         <address>
             Cosel - Rua das flores, 18 bairro do limão -são paulo SP
             cep: 00358345 - telefone 22 2344-556-78
             contato <a href="mailto:trentini@gmail.com">Email</a>
-
         </address>
     </footer>
-
 </body>
 
 </html>
